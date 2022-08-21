@@ -9,16 +9,16 @@ const mainProduct = document.querySelector(".container-main-product");
 
 
 thumbNailOne.addEventListener("click", () => {
-    mainProduct.innerHTML = "<img onclick='openModal(); currentSlide(1);' src='images/image-product-1.jpg' class='img-product'></img>";
+    mainProduct.innerHTML = "<img onclick='openModal(); currentSlide(1);' src='./images/image-product-1.jpg' class='img-product'></img>";
 });
 thumbNailTwo.addEventListener("click", () => {
-    mainProduct.innerHTML = "<img  onclick='openModal(); currentSlide(2);' src='images/image-product-2.jpg' class='img-product'></img>";
+    mainProduct.innerHTML = "<img  onclick='openModal(); currentSlide(2);' src='./images/image-product-2.jpg' class='img-product'></img>";
 });
 thumbNailThree.addEventListener("click", () => {
-    mainProduct.innerHTML = "<img onclick='openModal(); currentSlide(3);'  src='images/image-product-3.jpg' class='img-product'></img>";
+    mainProduct.innerHTML = "<img onclick='openModal(); currentSlide(3);'  src='./images/image-product-3.jpg' class='img-product'></img>";
 });
 thumbNailFour.addEventListener("click", () => {
-    mainProduct.innerHTML = "<img onclick='openModal(); currentSlide(4);'   src='images/image-product-4.jpg' class='img-product'></img>";
+    mainProduct.innerHTML = "<img onclick='openModal(); currentSlide(4);'   src='./images/image-product-4.jpg' class='img-product'></img>";
 });
 
 
